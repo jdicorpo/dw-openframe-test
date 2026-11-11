@@ -1,0 +1,32 @@
+# Created by `cf setup`
+/caravel
+/dependencies/
+/venv-cocotb/
+/openlane/.venv/
+/openlane/.version-*
+
+# LibreLane run directories
+**/runs/
+/tmp/
+
+# Precheck / simulation outputs
+/precheck_results/
+lvs_results/
+*.vcd
+*.fst
+*.gtkw
+
+# Machine-local project state written by `cf init` / `cf precheck`
+/.cf/project.json
+
+# Python
+__pycache__/
+*.pyc
+/venv/
+
+# Editors
+/.idea/
+/.vscode/
+
+# cf verify runs
+/verilog/dv/cocotb/sim/
